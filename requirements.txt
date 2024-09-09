@@ -2,3 +2,4 @@ crewai
 langchain_google_genai
 crewai_tools
 streamlit
+dotenv
