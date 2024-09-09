@@ -21,7 +21,6 @@ campaign_creator_task = Task(
     agent=campaign_creator,
     # tools=[tool],
     # output_file='marketing campaigns.txt'
-# )
 )
 
 # digital_marketer_task = Task(
