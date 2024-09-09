@@ -26,6 +26,5 @@ inputs={'input':task_for_campaign_creator}
 # Query Answering
 if st.button("Generate"):
     with st.spinner("Generate Response..."):
-        crew.kickoff(inputs=inputs)
         st.subheader("Here is a Response Agent...")
         st.markdown(crew.kickoff(inputs=inputs))
