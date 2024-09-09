@@ -1,9 +1,7 @@
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 import os
-
-os.environ['SERPER_API_KEY'] = os.getenv('SERPER_API_KEY')
-
+os.environ['SERPER_API_KEY']='5e91bacd42a33cdf4299197ce6d7e49aaca23310'
 
 from crewai_tools import SerperDevTool
 
