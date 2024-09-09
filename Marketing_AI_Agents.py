@@ -64,7 +64,6 @@ tool = SerperDevTool()
 
 # Import Require Library
 from crewai import Task
-from PythonFile.Marketing_AI_Agents import market_reseacher,campaign_creator,digital_marketer_writer
 
 # Creating Task for Agents
 market_reseacher_task = Task(
