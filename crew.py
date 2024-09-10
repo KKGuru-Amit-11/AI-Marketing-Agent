@@ -5,8 +5,8 @@ from agents import market_reseacher,campaign_creator,LLM_Model
 from task import market_reseacher_task,campaign_creator_task
 
 # Creating Web Page header
-st.title("Welcome to Analytx4T Lab")
-st.subheader("Marketing Team with AI Agents")
+# st.title("Welcome to Analytx4T Lab")
+st.subheader("Multi AI Agent Marketing Campaign Generator...")
 
 # Getting Task From Web
 task_for_campaign_creator = st.text_area("What Marketing Campaigns Would you Like me to come up with Today?")
